@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.navbar-dark{
+    color: white;
+}
+
+.ntitle{
+    color: gold
+}
+
+.active{
+    border-bottom: 2px solid white;
+}
+
+.bg-darker{
+    background-color: rgba(49, 50, 45, 0.639)!important
+}
+
+.left-main{
+    background-color: rgba(32, 33, 30, 0.639)!important;
+    height: 400px;
+    margin: 30px 0px 0px 0px;
+    max-width: 20%;
+}
+
+.right-main{
+    background-color: rgba(64, 66, 61, 0.639)!important;
+    height: 400px;
+    margin: 30px 0px 0px 0px;
+    max-width: 100%;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.settings .settings-title{
+    text-align: center;
+}
+
+.settings .settings-title h3{
+    color: white;
+    margin-top: 5px;
+}
+
+.settings .settings-main{
+    margin-top: 50px;
+    text-align: center
+}
+
+.settings .settings-main h5{
+    border-bottom: 5px solid rgb(19, 19, 19);
+    margin-top: 20px;
+    color: rgb(159, 157, 157);
+    font-size: 18px;
+}
+
+.settings .settings-main a{
+    text-decoration: none;
+}
+
+.account-info .account-title{
+    text-align: center;
+}
+
+.account-info .account-title h3{
+    color: white;
+    margin-top: 5px;
+}
+
+.account-info .account-img img{
+    width: 20%;
+    height: 20%;
+}
+
+.account-info .account-main h6{
+    margin-top: 20px;
+    color: rgb(159, 157, 157)
+}
+
+.settings-main button{
+    background: transparent;
+    border: hidden;
+    color: rgb(159, 157, 157);
+}
+
+.modal-body input{
+    border-radius: 5px;
+}
